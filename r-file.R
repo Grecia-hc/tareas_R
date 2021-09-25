@@ -18,7 +18,7 @@ library(ggplot2)
 
 ggplot(data=mi_df)+
   aes(x = producto, y = precio)+
-  geom_col(fill="brown")+
+  geom_col(fill="blue")+
   theme_minimal ()
 
 #Se crea una gráfica de barras donde x= producto, y= precio
